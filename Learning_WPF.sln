@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Calculator", "Calculator", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningWPF.CalculatorApp", "LearningWPF.CalculatorApp\LearningWPF.CalculatorApp.csproj", "{2F7249AF-4E5C-4B2D-B754-48C8D892E503}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contacts", "Contacts", "{0380126D-B0AE-4561-B21E-15A2A99E7A22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningWPF.ContactsApp", "LearningWPF.ContactsApp\LearningWPF.ContactsApp.csproj", "{1D25D33A-3F36-4E3E-A61B-6545A523988A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,10 @@ Global
 		{2F7249AF-4E5C-4B2D-B754-48C8D892E503}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F7249AF-4E5C-4B2D-B754-48C8D892E503}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F7249AF-4E5C-4B2D-B754-48C8D892E503}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D25D33A-3F36-4E3E-A61B-6545A523988A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D25D33A-3F36-4E3E-A61B-6545A523988A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D25D33A-3F36-4E3E-A61B-6545A523988A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D25D33A-3F36-4E3E-A61B-6545A523988A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{93A229ED-CF12-432C-9A72-D46F3DC5DA10} = {5FB4B951-983C-41F6-9F11-BDEF8E90AA64}
 		{2F7249AF-4E5C-4B2D-B754-48C8D892E503} = {2951F082-F954-4BC8-A832-02A1BFE14CC5}
+		{1D25D33A-3F36-4E3E-A61B-6545A523988A} = {0380126D-B0AE-4561-B21E-15A2A99E7A22}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B294501F-3425-488D-BB3B-C9859AAD3A68}

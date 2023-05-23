@@ -13,7 +13,8 @@
                      Margin="0 0 5 0"
                      TextChanged="searchTextBox_TextChanged"/>
             <ListView x:Name="contactsListView"
-                      Margin="0 5 0 0">
+                      Margin="0 5 0 0"
+                      SelectionChanged="contactsListView_SelectionChanged">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <StackPanel>

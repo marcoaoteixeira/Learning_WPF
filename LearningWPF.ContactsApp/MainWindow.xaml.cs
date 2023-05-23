@@ -35,5 +35,14 @@ namespace LearningWPF.ContactsApp {
             var filteredList = _contacts.Where(_ => _.Name.Contains(((TextBox)sender).Text)).ToList();
             contactsListView.ItemsSource = filteredList;
         }
+
+        private void contactsListView_SelectionChanged(object sender, SelectionChangedEventArgs e) {
+            var contact = ((ListView)sender).SelectedItem as Contact;
+
+            if (contact != null) {
+                new ContactDetailsWindow(contact).ShowDialog();
+            }
+            ReadDatabase();
+        }
     }
 }

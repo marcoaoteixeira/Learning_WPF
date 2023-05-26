@@ -11,7 +11,7 @@ namespace LearningWPF.ContactsApp {
     /// </summary>
     public partial class MainWindow : Window {
 
-        private List<Contact> _contacts;
+        private List<Contact> _contacts = new();
         public MainWindow() {
             InitializeComponent();
             ReadDatabase();
